@@ -34,7 +34,7 @@ driver.find_element(By.CSS_SELECTOR, "input[type=\"submit\" i]").click()
 print("Logged in successfully")
 
 # Pause the execution for 7 seconds to allow time for further actions or observations
-time.sleep(7)
+time.sleep(3)
 
 # Close the browser and terminate the WebDriver session
 driver.close()
